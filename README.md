@@ -15,7 +15,7 @@ Chatbot --> Contains files to run the chatbot interface locally. Note, please mo
 2. Move telehealth_chatbot.h5 to the backend folder
 - The backend folder is inside the Chatbot folder
 3. cd Chatbot --> cd front-end --> npm i
-- This install all node_modules
+- This installs all node_modules
 4. cd Chatbot --> cd backend --> flask run
 - This runs the api
 5. cd Chatbot --> cd front-end --> npm start
