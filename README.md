@@ -5,4 +5,4 @@ train_model --> Notebook to train the custom BERT model on the intents file. Thi
 
 Intents --> The predefined responses for the chatbot, Feel free to add
 
-Chatbot --> Contains files to run the chatbot interface locally. Note, please move the `telehealth_chatbot.h5` file into the backend folder.
+Chatbot --> Contains files to run the chatbot interface locally. Note, please move the `telehealth_chatbot.h5` file into the backend folder once it is created.
