@@ -6,3 +6,18 @@ train_model --> Notebook to train the custom BERT model on the intents file. Thi
 Intents --> The predefined responses for the chatbot, Feel free to add
 
 Chatbot --> Contains files to run the chatbot interface locally. Note, please move the `telehealth_chatbot.h5` file into the backend folder once it is created.
+
+
+# Instructions
+
+1. Run train_model.ipynb 
+- This will create the model called telehealth_chatbot.h5
+2. Move telehealth_chatbot.h5 to the backend folder
+- The backend folder is inside the Chatbot folder
+3. cd Chatbot --> cd front-end --> npm i
+- This install all node_modules
+4. cd Chatbot --> cd backend --> flask run
+- This runs the api
+5. cd Chatbot --> cd front-end --> npm start
+- This hosts the website locally
+
