@@ -1,0 +1,162 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+            },
+            {
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["It seems that you are suffering from common cold"]
+            },
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"],
+             "responses":["It seems that you are suffering from fever"]
+            },
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["It seems that you are suffering from Diabetes"]
+            },
+            {
+             "tag":"Depression symptoms",
+             "patterns":["Hopeless outlook",
+             "Lost interest",
+             "Increased fatigue",
+             "sleep problem",
+             "Anxiety",
+             "change in weight",
+             "Looking at death"],
+             "responses":["It seem that you are suffering from depression"]
+            },
+            {
+             "tag":"Asthma symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["It seem that you are suffering from Asthma"]
+            },
+            {
+                "tag": "symptom_check",
+                "patterns": [
+                  "I'm feeling sick",
+                  "I'm not feeling well",
+                  "I have a fever",
+                  "I have a cough",
+                  "I have difficulty breathing",
+                  "I feel tired",
+                  "I feel nauseous",
+                  "I'm vomiting",
+                  "I have a headache",
+                  "I feel dizzy"
+                ],
+                "responses": [
+                  "I'm sorry to hear that. Can you please describe your symptoms in more detail?",
+                  "I'm here to help. Can you tell me more about your symptoms?",
+                  "Let's see how we can help you. Can you give me more information about your symptoms?"
+                ]
+            },
+            {
+                "tag":"cpr",
+                "patterns":["How do I perform CPR?","What are the steps of CPR?"],
+                "responses":["These are the steps of CPR: 1. Call 911 or your local emergency number. 2. Check the person for responsiveness. 3. If the person is not responsive, call out for help. 4. If the person is not responsive, check for breathing. 5. If the person is not breathing, begin CPR. 6. If the person is breathing, begin rescue breathing."]
+            },
+            {
+                "tag":"stroke",
+                "patterns":[" What are the symptoms of a stroke?","What are the signs of a stroke?","I think I am having a stroke. What are the signs?"],
+                "responses":[" If you think you are having a stroke please call emergency services immediately. These are the symptoms you may experience: 1. Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body. 2. Sudden confusion, trouble speaking, or understanding. 3. Sudden trouble seeing in one or both eyes. 4. Sudden trouble walking, dizziness, loss of balance, or lack of coordination. 5. Sudden severe headache with no known cause."]
+            },
+            {
+                "tag":"pregnancy",
+                "patterns":[" What are the symptoms of pregnancy?","What are the signs of pregnancy?"],
+                "responses":[" 1. Missed period. 2. Tender, swollen breasts. 3. Nausea with or without vomiting. 4. Increased urination. 5. Fatigue. 6. Food aversions or cravings. 7. Headaches."," 1. Missed period. 2. Tender, swollen breasts. 3. Nausea with or without vomiting. 4. Increased urination. 5. Fatigue. 6. Food aversions or cravings. 7. Headaches."]
+            },
+            {
+                "tag": "heart_attack",
+                "patterns": [
+                  "I'm having chest pain",
+                  "I feel tightness in my chest",
+                  "I have difficulty breathing",
+                  "I'm experiencing nausea",
+                  "I feel dizzy or lightheaded"
+                ],
+                "responses": [
+                  "Please seek medical attention immediately if you are experiencing chest pain or difficulty breathing, as these could be signs of a heart attack.",
+                  "If you are experiencing chest pain or difficulty breathing, it's important to get medical help right away. Please call emergency services or go to the nearest hospital.",
+                  "Chest pain, shortness of breath, nausea, and dizziness are all symptoms that require urgent medical attention. Please call emergency services or go to the nearest hospital."
+                ]
+              },
+              {
+                "tag": "burn",
+                "patterns": [
+                  "I have a burn",
+                  "I burned myself",
+                  "My skin is red and painful",
+                  "I have a blister",
+                  "What should I do for a burn?"
+                ],
+                "responses": [
+                  "For a minor burn, run cool water over the affected area for at least 10 minutes. If the burn is severe or covers a large area, seek medical attention immediately.",
+                  "If you have a burn, the first step is to cool the affected area with cool water. Cover the area with a sterile bandage or cloth, and seek medical attention if the burn is severe or covers a large area.",
+                  "Minor burns can be treated with cool water and a sterile bandage. If you have a large or severe burn, seek medical attention immediately."
+                ]
+              },
+              {
+                "tag": "allergic_reaction",
+                "patterns": [
+                  "I'm having trouble breathing",
+                  "My throat feels tight",
+                  "I'm experiencing hives or swelling",
+                  "I feel lightheaded or dizzy",
+                  "I think I'm having an allergic reaction"
+                ],
+                "responses": [
+                  "If you are experiencing difficulty breathing, tightness in the throat, hives, swelling, or lightheadedness, you may be having an allergic reaction. Seek medical attention immediately.",
+                  "Allergic reactions can be serious and require urgent medical attention. If you are experiencing difficulty breathing, tightness in the throat, hives, swelling, or lightheadedness, please seek medical help right away.",
+                  "Allergic reactions can be life-threatening. If you think you're having an allergic reaction and are experiencing difficulty breathing, tightness in the throat, hives, swelling, or lightheadedness, please call emergency services or go to the nearest hospital immediately."
+                ]
+              }
+            ]
+        }
+            
+
+        
