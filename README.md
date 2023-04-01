@@ -8,7 +8,7 @@ This chatbot uses a combination of Word2Vec and BERT models. The chatbot is trai
 This notebook will fine-tune the BERT model and save it locally as telehealth_chatbot.h5
 ### 2. Move telehealth_chatbot.h5 to the backend folder
 The backend folder is inside the Chatbot folder. 
-## 3. cd Chatbot --> cd front-end --> npm i
+### 3. cd Chatbot --> cd front-end --> npm i
 This installs all node_modules for the React App
 ### 4. cd Chatbot --> cd backend --> flask run
 This runs the API which sends a JSON file with the response from the backend to the front end
