@@ -15,3 +15,7 @@ This runs the API which sends a JSON file with the response from the backend to 
 ### 5. cd Chatbot --> cd front-end --> npm start
 This hosts the website locally
 
+
+
+https://user-images.githubusercontent.com/118325725/230186961-391c3dfb-71f4-46da-8d85-f21ca86c8856.mp4
+
